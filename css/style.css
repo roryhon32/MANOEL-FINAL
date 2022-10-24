@@ -141,7 +141,7 @@
 
 .numbers {
   background-color: black;
-  height: 20vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -196,54 +196,57 @@
   .container00.container02 {
     background-image: url(../images/02.gif);
   }
-  .container00.container03 {
-    background-image: url(../images/03.jpg);
-  }
   .container00.container04 {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/WhatsApp\ Image\ 2022-06-02\ at\ 12.37.37.jpeg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-  .container00.carrosel01 {
+  .container00.container04 {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container00 .container00.carrosel01 {
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/c12.jpg);
     background-size: cover;
     background-position: center;
   }
-  .container00.carrosel02 {
+  .container00 .container00.carrosel02 {
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
     background-size: cover;
     background-position: center;
   }
-  .container00.carrosel03 {
+  .container00 .container00.carrosel03 {
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/286298265_417400243577957_6711187973562998314_n.jpg);
     background-size: cover;
     background-position: center;
   }
-  .container00.container05 {
+  .container00 .container00.container05 {
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/wallpaperflare.com_wallpaper.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-  .titleContent {
+  .container00 .titleContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 80vh;
   }
-  .numbers .titleNumb {
+  .container00 .numbers .titleNumb {
     font-size: 40px;
   }
-  .numbers .subTitleNumb {
+  .container00 .numbers .subTitleNumb {
     font-size: 14px;
   }
-  .containerEventDesc .Eventdesc {
+  .container00 .containerEventDesc .Eventdesc {
     width: auto;
     font-size: 18px;
     line-height: 30px;
   }
-  #overViewPosition {
+  .container00 #overViewPosition {
     display: flex;
     height: 90vh;
     flex-direction: column;
@@ -251,11 +254,11 @@
     width: auto;
     margin-left: auto;
   }
-  .titleOverView {
+  .container00 .titleOverView {
     font-size: 26px;
     font-weight: bold;
   }
-  .subTitleOvewView {
+  .container00 .subTitleOvewView {
     font-size: 20px;
     font-weight: 300;
   }

@@ -38,15 +38,27 @@
 
 .container00 {
   &.container01 {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgba(20, 20, 20, 1)),url(../images/couple-on-coffee-date.jpg);
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.123),
+        rgba(20, 20, 20, 1)
+      ),
+      url(../images/couple-on-coffee-date.jpg);
     color: black;
   }
-  
+
   &.container03 {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgba(20, 20, 20, 1)), url(../images/berry-cheesecake.jpg);
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.123),
+        rgba(20, 20, 20, 1)
+      ),
+      url(../images/berry-cheesecake.jpg);
   }
   &.container04 {
-    background-image: linear-gradient(rgba(20, 20, 20, 1),rgba(17, 17, 17, 0.123) ),url(../images/dinner-salad.jpg);
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 1),
+        rgba(17, 17, 17, 0.123)
+      ),
+      url(../images/dinner-salad.jpg);
   }
 }
 
@@ -126,22 +138,38 @@
 
 .container00 {
   &.carrosel01 {
-    background:linear-gradient( rgba(20, 20, 20, 0.497),rgba(17, 17, 17, 0.853)),url(../images/c1.jpg);
+    background: linear-gradient(
+        rgba(20, 20, 20, 0.497),
+        rgba(17, 17, 17, 0.853)
+      ),
+      url(../images/c1.jpg);
     background-size: cover;
     background-position: center;
   }
   &.carrosel02 {
-    background:linear-gradient( rgba(20, 20, 20, 0.497),rgba(17, 17, 17, 0.853)), url(../images/c2.jpg);
+    background: linear-gradient(
+        rgba(20, 20, 20, 0.497),
+        rgba(17, 17, 17, 0.853)
+      ),
+      url(../images/c2.jpg);
     background-size: cover;
     background-position: center;
   }
   &.carrosel03 {
-    background: linear-gradient( rgba(20, 20, 20, 0.701),rgba(17, 17, 17, 0.578)),url(../images/c3.jpg);
+    background: linear-gradient(
+        rgba(20, 20, 20, 0.701),
+        rgba(17, 17, 17, 0.578)
+      ),
+      url(../images/c3.jpg);
     background-size: cover;
     background-position: center;
   }
   &.container05 {
-    background: linear-gradient( rgba(20, 20, 20, 0.497),rgba(17, 17, 17, 0.853)), url(../images/plated-smoked-salmon.jpg);
+    background: linear-gradient(
+        rgba(20, 20, 20, 0.497),
+        rgba(17, 17, 17, 0.853)
+      ),
+      url(../images/plated-smoked-salmon.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,7 +177,7 @@
 }
 .numbers {
   background-color: black;
-  height: 20vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -207,85 +235,93 @@
     &.container02 {
       background-image: url(../images/02.gif);
     }
-    &.container03 {
-      background-image: url(../images/03.jpg);
+
+    &.container04 {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0.8),
+          rgba(20, 20, 20, 1)
+        ),
+        url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
     }
     &.container04 {
       background-image: linear-gradient(
           rgba(17, 17, 17, 0.8),
           rgba(20, 20, 20, 1)
         ),
-        url(../images/WhatsApp\ Image\ 2022-06-02\ at\ 12.37.37.jpeg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-  }
-
-  .container00 {
-    &.carrosel01 {
-      background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
-        url(../images/c12.jpg);
-      background-size: cover;
-      background-position: center;
-    }
-    &.carrosel02 {
-      background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
         url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
-      background-size: cover;
-      background-position: center;
-    }
-    &.carrosel03 {
-      background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
-        url(../images/286298265_417400243577957_6711187973562998314_n.jpg);
-      background-size: cover;
-      background-position: center;
-    }
-    &.container05 {
-      background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
-        url(../images/wallpaperflare.com_wallpaper.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
     }
-  }
 
-  .titleContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 80vh;
-  }
+    .container00 {
+      &.carrosel01 {
+        background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+          url(../images/c12.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      &.carrosel02 {
+        background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+          url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      &.carrosel03 {
+        background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+          url(../images/286298265_417400243577957_6711187973562998314_n.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      &.container05 {
+        background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+          url(../images/wallpaperflare.com_wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    }
 
-  .numbers {
-    .titleNumb {
-      font-size: 40px;
+    .titleContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 80vh;
     }
-    .subTitleNumb {
-      font-size: 14px;
+
+    .numbers {
+      .titleNumb {
+        font-size: 40px;
+      }
+      .subTitleNumb {
+        font-size: 14px;
+      }
     }
-  }
-  .containerEventDesc {
-    .Eventdesc {
+    .containerEventDesc {
+      .Eventdesc {
+        width: auto;
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+    #overViewPosition {
+      display: flex;
+      height: 90vh;
+      flex-direction: column;
+      justify-content: center;
       width: auto;
-      font-size: 18px;
-      line-height: 30px;
+      margin-left: auto;
     }
-  }
-  #overViewPosition {
-    display: flex;
-    height: 90vh;
-    flex-direction: column;
-    justify-content: center;
-    width: auto;
-    margin-left: auto;
-  }
-  .titleOverView {
-    font-size: 26px;
-    font-weight: bold;
-  }
-  .subTitleOvewView {
-    font-size: 20px;
-    font-weight: 300;
+    .titleOverView {
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .subTitleOvewView {
+      font-size: 20px;
+      font-weight: 300;
+    }
   }
 }
