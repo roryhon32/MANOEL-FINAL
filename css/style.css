@@ -44,11 +44,18 @@
   background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/berry-cheesecake.jpg);
 }
 .container00.container04 {
-  background-image: linear-gradient(rgb(20, 20, 20), rgba(17, 17, 17, 0.123)), url(../images/dinner-salad.jpg);
+  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/WPPMELHORDOMUNDO.jpeg);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel-inner p {
+  font-size: 1.4rem;
 }
 
 .titlePadding {
-  padding-top: 200px;
+  padding: 200px;
 }
 
 .shortTitle {
@@ -119,22 +126,22 @@
   }
 }
 .container00.carrosel01 {
-  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/c1.jpg);
+  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/c1.jpeg);
   background-size: cover;
   background-position: center;
 }
 .container00.carrosel02 {
-  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/c2.jpg);
+  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/c2.jpeg);
   background-size: cover;
   background-position: center;
 }
 .container00.carrosel03 {
-  background: linear-gradient(rgba(20, 20, 20, 0.701), rgba(17, 17, 17, 0.578)), url(../images/c3.jpg);
+  background: linear-gradient(rgba(20, 20, 20, 0.701), rgba(17, 17, 17, 0.578)), url(../images/c3.jpeg);
   background-size: cover;
   background-position: center;
 }
 .container00.container05 {
-  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/PAGE2.jpg);
+  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/mlindo.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -150,12 +157,12 @@
 .numbers .titleNumb {
   font-size: 90px;
 }
-.numbers .subTitleNumb {
-  font-size: 20px;
+.numbers .subtitlenumb {
+  font-size: 40px;
 }
 
 .Eventdesc {
-  font-size: 26px;
+  font-size: 1.4rem;
   width: 640px;
   line-height: 50px;
 }
@@ -194,9 +201,6 @@
   .container00.container01 {
     background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/mf.JPG);
   }
-  .container00.container02 {
-    background-image: url(../images/02.gif);
-  }
   .container00.container04 {
     background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
     background-repeat: no-repeat;
@@ -210,7 +214,7 @@
     background-size: cover;
   }
   .container00 .container00.carrosel01 {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/c12.jpg);
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/c1.jpeg);
     background-size: cover;
     background-position: center;
   }
@@ -223,12 +227,6 @@
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/286298265_417400243577957_6711187973562998314_n.jpg);
     background-size: cover;
     background-position: center;
-  }
-  .container00 .container00.container05 {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/wallpaperflare.com_wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
   .container00 .titleContent {
     display: flex;
