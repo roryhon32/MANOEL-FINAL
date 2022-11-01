@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 * {
+  font-family: "Poiret One", cursive;
   color: white;
+  font-weight: bolder;
 }
 
 .header {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
 }
 .header #navItem {
@@ -19,7 +21,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  text-transform: uppercase;
 }
 
 .arrowDown {
@@ -36,7 +37,7 @@
 }
 
 .container00.container01 {
-  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/couple-on-coffee-date.jpg);
+  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/Home.jpg);
   color: black;
 }
 .container00.container03 {
@@ -133,7 +134,7 @@
   background-position: center;
 }
 .container00.container05 {
-  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/plated-smoked-salmon.jpg);
+  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/PAGE2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

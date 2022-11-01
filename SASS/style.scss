@@ -1,13 +1,17 @@
 @import "./communelements/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 * {
+  font-family: 'Poiret One', cursive;
   color: white;
+  
+  font-weight: bolder;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;600&display=swap");
+
 
 .header {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
   #navItem {
     margin-right: 40px;
@@ -22,7 +26,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  text-transform: uppercase;
+  
 }
 .arrowDown {
   display: inline-block;
@@ -42,8 +46,9 @@
         rgba(17, 17, 17, 0.123),
         rgba(20, 20, 20, 1)
       ),
-      url(../images/couple-on-coffee-date.jpg);
+      url(../images/Home.jpg);
     color: black;
+    
   }
 
   &.container03 {
@@ -169,7 +174,7 @@
         rgba(20, 20, 20, 0.497),
         rgba(17, 17, 17, 0.853)
       ),
-      url(../images/plated-smoked-salmon.jpg);
+      url(../images/PAGE2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
