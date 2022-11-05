@@ -232,7 +232,6 @@
 }
 
 @media (max-width: 768px) {
- 
   .numbers {
     .titleNumb {
       font-size: 28px;
@@ -310,14 +309,17 @@
     justify-content: center;
     min-height: 80vh;
   }
-
+  .titlePadding {
+    padding-top: 100px;
+    margin: 0px;
+  }
   .numbers {
     height: 40vh;
     .titleNumb {
-      font-size: 36px;
+      font-size: 30px;
     }
     .subtitlenumb {
-      font-size: 26px;
+      font-size: 16px;
     }
   }
   .containerEventDesc {
