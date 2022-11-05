@@ -159,7 +159,7 @@
 }
 .numbers {
   background-color: black;
-  height: 40vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,9 +209,9 @@
     font-size: 50px;
   }
   .numbers {
-    height: 20vh;
+    height: 23vh;
     .titleNumb {
-      font-size: 40px;
+      font-size: 380px;
     }
     .subtitlenumb {
       font-size: 20px;
@@ -232,9 +232,10 @@
 }
 
 @media (max-width: 768px) {
+ 
   .numbers {
     .titleNumb {
-      font-size: 40px;
+      font-size: 28px;
     }
     .subTitleNumb {
       font-size: 18px;
