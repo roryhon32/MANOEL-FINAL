@@ -103,28 +103,6 @@
     font-size: 10px;
   }
 }
-@media (max-width: 350px) {
-  .logoPc {
-    width: 150px;
-    margin-top: -40px;
-    margin-right: 10px;
-  }
-}
-@media (max-width: 750px) {
-  .titlePadding {
-    padding-top: 120px;
-  }
-  .shortTitle,
-.mediumTitle {
-    width: auto;
-    font-size: 50px;
-  }
-}
-@media (max-width: 1000px) {
-  .logoPc {
-    margin-right: 40px;
-  }
-}
 .container00.carrosel01 {
   background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/c1.jpeg);
   background-size: cover;
@@ -180,6 +158,48 @@
   padding-top: 15%;
 }
 
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: -40px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 750px) {
+  .container00 {
+    background-position: center;
+    background-size: cover;
+  }
+  .titlePadding {
+    padding: 0px;
+    margin-top: 300px;
+  }
+  .shortTitle,
+.mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+  .numbers {
+    height: 20vh;
+  }
+  .numbers .titleNumb {
+    font-size: 40px;
+  }
+  .numbers .subtitlenumb {
+    font-size: 20px;
+  }
+  .containerEventDesc {
+    display: flex;
+  }
+  .containerEventDesc .Eventdesc {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .logoPc {
+    margin-right: 40px;
+  }
+}
 @media (max-width: 768px) {
   .numbers .titleNumb {
     font-size: 40px;
@@ -189,6 +209,7 @@
   }
   .Eventdesc {
     font-size: 26px;
+    box-sizing: border-box;
   }
   #overViewPosition {
     display: block;
@@ -208,44 +229,47 @@
     background-size: cover;
   }
   .container00.container04 {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/WPPMELHORDOMUNDO.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-  .container00 .container00.carrosel01 {
+  .container00.carrosel01 {
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/c1.jpeg);
     background-size: cover;
     background-position: center;
   }
-  .container00 .container00.carrosel02 {
+  .container00.carrosel02 {
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
     background-size: cover;
     background-position: center;
   }
-  .container00 .container00.carrosel03 {
+  .container00.carrosel03 {
     background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/286298265_417400243577957_6711187973562998314_n.jpg);
     background-size: cover;
     background-position: center;
   }
-  .container00 .titleContent {
+  .titleContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 80vh;
   }
-  .container00 .numbers .titleNumb {
+  .numbers {
+    height: 40vh;
+  }
+  .numbers .titleNumb {
     font-size: 40px;
   }
-  .container00 .numbers .subTitleNumb {
-    font-size: 14px;
+  .numbers .subtitlenumb {
+    font-size: 26px;
   }
-  .container00 .containerEventDesc .Eventdesc {
+  .containerEventDesc .Eventdesc {
     width: auto;
     font-size: 18px;
     line-height: 30px;
   }
-  .container00 #overViewPosition {
+  #overViewPosition {
     display: flex;
     height: 90vh;
     flex-direction: column;
@@ -253,11 +277,11 @@
     width: auto;
     margin-left: auto;
   }
-  .container00 .titleOverView {
+  .titleOverView {
     font-size: 26px;
     font-weight: bold;
   }
-  .container00 .subTitleOvewView {
+  .subTitleOvewView {
     font-size: 20px;
     font-weight: 300;
   }

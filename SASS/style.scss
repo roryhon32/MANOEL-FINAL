@@ -56,8 +56,8 @@
   }
   &.container04 {
     background-image: linear-gradient(
-      rgba(17, 17, 17, 0.123), rgba(20, 20, 20, 1)
-        
+        rgba(17, 17, 17, 0.123),
+        rgba(20, 20, 20, 1)
       ),
       url(../images/WPPMELHORDOMUNDO.jpeg);
     align-items: center;
@@ -118,32 +118,6 @@
     font-size: 10px;
   }
 }
-
-@media (max-width: 350px) {
-  .logoPc {
-    width: 150px;
-    margin-top: -40px;
-    margin-right: 10px;
-  }
-}
-
-@media (max-width: 750px) {
-  .titlePadding {
-    padding-top: 120px;
-  }
-  .shortTitle,
-  .mediumTitle {
-    width: auto;
-    font-size: 50px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .logoPc {
-    margin-right: 40px;
-  }
-}
-
 .container00 {
   &.carrosel01 {
     background: linear-gradient(
@@ -212,6 +186,51 @@
   margin-left: 13%;
   padding-top: 15%;
 }
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: -40px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container00 {
+    background-position: center;
+    background-size: cover;
+  }
+  .titlePadding {
+    padding: 0px;
+    margin-top: 300px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+  .numbers {
+    height: 20vh;
+    .titleNumb {
+      font-size: 40px;
+    }
+    .subtitlenumb {
+      font-size: 20px;
+    }
+  }
+  .containerEventDesc {
+    display: flex;
+    .Eventdesc {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .logoPc {
+    margin-right: 40px;
+  }
+}
+
 @media (max-width: 768px) {
   .numbers {
     .titleNumb {
@@ -223,6 +242,7 @@
   }
   .Eventdesc {
     font-size: 26px;
+    box-sizing: border-box;
   }
   #overViewPosition {
     display: block;
@@ -256,70 +276,70 @@
           rgba(17, 17, 17, 0.8),
           rgba(20, 20, 20, 1)
         ),
-        url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
+        url(../images/WPPMELHORDOMUNDO.jpeg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
     }
+  }
+  .container00 {
+    &.carrosel01 {
+      background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+        url(../images/c1.jpeg);
+      background-size: cover;
+      background-position: center;
+    }
+    &.carrosel02 {
+      background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+        url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    &.carrosel03 {
+      background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+        url(../images/286298265_417400243577957_6711187973562998314_n.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
 
-    .container00 {
-      &.carrosel01 {
-        background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
-          url(../images/c1.jpeg);
-        background-size: cover;
-        background-position: center;
-      }
-      &.carrosel02 {
-        background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
-          url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
-        background-size: cover;
-        background-position: center;
-      }
-      &.carrosel03 {
-        background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
-          url(../images/286298265_417400243577957_6711187973562998314_n.jpg);
-        background-size: cover;
-        background-position: center;
-      }
-    }
+  .titleContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+  }
 
-    .titleContent {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      min-height: 80vh;
+  .numbers {
+    height: 40vh;
+    .titleNumb {
+      font-size: 40px;
     }
-
-    .numbers {
-      .titleNumb {
-        font-size: 40px;
-      }
-      .subTitleNumb {
-        font-size: 14px;
-      }
-    }
-    .containerEventDesc {
-      .Eventdesc {
-        width: auto;
-        font-size: 18px;
-        line-height: 30px;
-      }
-    }
-    #overViewPosition {
-      display: flex;
-      height: 90vh;
-      flex-direction: column;
-      justify-content: center;
-      width: auto;
-      margin-left: auto;
-    }
-    .titleOverView {
+    .subtitlenumb {
       font-size: 26px;
-      font-weight: bold;
     }
-    .subTitleOvewView {
-      font-size: 20px;
-      font-weight: 300;
+  }
+  .containerEventDesc {
+    .Eventdesc {
+      width: auto;
+      font-size: 18px;
+      line-height: 30px;
     }
+  }
+  #overViewPosition {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-left: auto;
+  }
+  .titleOverView {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .subTitleOvewView {
+    font-size: 20px;
+    font-weight: 300;
   }
 }
