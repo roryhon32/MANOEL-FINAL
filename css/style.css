@@ -49,6 +49,12 @@
   justify-content: center;
   text-align: center;
 }
+.container00.container08 {
+  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/natal.jpg);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 .carousel-inner p {
   font-size: 1.4rem;
