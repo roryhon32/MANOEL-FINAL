@@ -39,21 +39,25 @@
 }
 
 .container00.container01 {
-  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/Home.jpg);
+  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)),
+    url(../images/Home.jpg);
   color: black;
 }
 .container00.container03 {
-  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/berry-cheesecake.jpg);
+  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)),
+    url(../images/berry-cheesecake.jpg);
 }
 .container00.container04 {
-  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/WPPMELHORDOMUNDO.jpeg);
+  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)),
+    url(../images/WPPMELHORDOMUNDO.jpeg);
   align-items: center;
   justify-content: center;
   text-align: center;
   background-attachment: local;
 }
 .container00.container08 {
-  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/natal.jpg);
+  background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)),
+    url(../images/natal.jpg);
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -113,22 +117,26 @@
   }
 }
 .container00.carrosel01 {
-  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/c1.jpeg);
+  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)),
+    url(../images/c1.jpeg);
   background-size: cover;
   background-position: center;
 }
 .container00.carrosel02 {
-  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/c2.jpeg);
+  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)),
+    url(../images/c2.jpeg);
   background-size: cover;
   background-position: center;
 }
 .container00.carrosel03 {
-  background: linear-gradient(rgba(20, 20, 20, 0.701), rgba(17, 17, 17, 0.578)), url(../images/c3.jpeg);
+  background: linear-gradient(rgba(20, 20, 20, 0.701), rgba(17, 17, 17, 0.578)),
+    url(../images/c3.jpeg);
   background-size: cover;
   background-position: center;
 }
 .container00.container05 {
-  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)), url(../images/mlindo.jpeg);
+  background: linear-gradient(rgba(20, 20, 20, 0.497), rgba(17, 17, 17, 0.853)),
+    url(../images/mlindo.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -185,7 +193,7 @@
     margin-top: 300px;
   }
   .shortTitle,
-.mediumTitle {
+  .mediumTitle {
     width: auto;
     font-size: 50px;
   }
@@ -230,32 +238,38 @@
 }
 @media (max-width: 425px) {
   .container00.container01 {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/mf.JPG);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)),
+      url(../images/mf.JPG);
   }
   .container00.container04 {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)),
+      url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   .container00.container04 {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/WPPMELHORDOMUNDO.jpeg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)),
+      url(../images/WPPMELHORDOMUNDO.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   .container00.carrosel01 {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/c1.jpeg);
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)),
+      url(../images/c1.jpeg);
     background-size: cover;
     background-position: center;
   }
   .container00.carrosel02 {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)),
+      url(../images/222612911_509749586764127_1530400258381655535_n.jpg);
     background-size: cover;
     background-position: center;
   }
   .container00.carrosel03 {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)), url(../images/286298265_417400243577957_6711187973562998314_n.jpg);
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(20, 20, 20)),
+      url(../images/286298265_417400243577957_6711187973562998314_n.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -266,7 +280,7 @@
     min-height: 80vh;
   }
   .titlePadding {
-    padding-top: 100px;
+    padding-top: 200px;
     margin: 0px;
   }
   .numbers {
