@@ -21,6 +21,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
 }
 
 .arrowDown {
@@ -48,6 +50,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-attachment: local;
 }
 .container00.container08 {
   background-image: linear-gradient(rgba(17, 17, 17, 0.123), rgb(20, 20, 20)), url(../images/natal.jpg);
@@ -129,6 +132,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .numbers {
